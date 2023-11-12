@@ -1,0 +1,5 @@
+﻿@addTagHelper *, MvcApp
+
+@await Component.InvokeAsync("Weather", new { region = "Mykolayiv" })
+
+@await Component.InvokeAsync("Table", new { items = Model.TableItems })

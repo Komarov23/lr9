@@ -1,0 +1,5 @@
+﻿<h4>Погода в @Model.Name, @Model.Sys.Country</h4>
+<h5>Температура: @((Model.Main.Temp - 273.15).ToString("0.00"))°C</h5>
+<h5>Відчувається як: @((Model.Main.Feels_like - 273.15).ToString("0.00"))°C</h5>
+<h5>Вологість: @Model.Main.Humidity %</h5>
+<h5>Швидкість вітру: @Model.Wind.Speed m/s S</h5>
